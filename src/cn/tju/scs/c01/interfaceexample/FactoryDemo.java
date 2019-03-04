@@ -23,18 +23,18 @@ class Circle5 implements Drawable5 {
 public class FactoryDemo {
 
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
-		Drawable5 d = new Rectangle5();
-		Drawable5 dcircle = new Circle5();
-		d.draw();
+//		Drawable5 d = new Rectangle5();
+//		Drawable5 dcircle = new Circle5();
+//		d.draw();
+//		
+//		dcircle.draw();
+//		
+//		Drawable5 draw = FactoryDraw.getInstance("rectangle");
+//		draw.draw();
 		
-		dcircle.draw();
-		
-		Drawable5 draw = FactoryDraw.getInstance("rectangle");
-		draw.draw();
-		
-		Drawable5 drawReflect = FactoryReflect.getInstance("Star5");
+		Drawable5 drawReflect = FactoryReflect.getInstance("Triangle5");
 		drawReflect.draw();
-		
+//		
 
 	}
 

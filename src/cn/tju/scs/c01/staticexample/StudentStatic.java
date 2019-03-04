@@ -14,8 +14,8 @@ public class StudentStatic {
 		 }  
 	  
 	 public static void main(String args[]){  
-		 StudentStatic s1 = new StudentStatic(111,"Karan");  
-		 StudentStatic s2 = new StudentStatic(222,"Aryan");  
+		 StudentStatic s1 = new StudentStatic(111,"AAA");  
+		 StudentStatic s2 = new StudentStatic(222,"BBB");  
 		   
 		 s1.display();  
 		 s2.display();  

@@ -2,7 +2,7 @@ package cn.tju.scs.c01.polymorph;
 
 public class B extends A {
 	public void print() {
-		System.out.println("Print() B");		
+		System.out.println("Print B");		
 	}
 	
 	public void funB() {

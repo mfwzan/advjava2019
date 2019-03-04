@@ -6,7 +6,8 @@ public class StudentStaticMethod {
 	 static String college ="SCS";  
 	 
 	 static void change(){
-		 college = "SS";
+		 college = "CIC";
+//		 name = "fff";
 	 }
 	     
 	 StudentStaticMethod(int r,String n){  

@@ -35,7 +35,7 @@ public class PolyMorphDemo {
 //		A a = new B();
 //		System.out.println(a instanceof A);
 //		System.out.println(a instanceof B);
-//		System.out.println(null instanceof A);
+////		System.out.println(null instanceof A);
 //	}
 	
 	
@@ -48,33 +48,33 @@ public class PolyMorphDemo {
 //		
 //	}
 	
-//	public static void main(String[] args) {
-//		A a = new B();
-//		//a.funB()
-//		B b = (B)a;
-//		b.funB();
-//		
+	public static void main(String[] args) {
+		A a = new B();
+//		a.funB(); 
+		B b = (B)a;
+		b.funB();
+		
 //		new B().funB();
-//		
-//		
-//	}
+		
+		
+	}
 	
 //	public static void main(String[] args) {
 //		fun(new C());
 //	}
 //	
-//	public static void fun(A a) {
-//		a.print();
+//	public static void fun(A b) {
+//		b.print();
 //	}
 	
-	public static void main(String[] args) {
-		A a = new B();
-		if (a instanceof B) {
-			B b = (B)a;
-			b.print();
-		}
-		
-	}
+//	public static void main(String[] args) {
+//		A a = new B();
+//		if (a instanceof B) {
+//			B b = (B)a;
+//			b.print();
+//		}
+//		
+//	}
 
 
 }

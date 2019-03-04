@@ -12,12 +12,12 @@ class X implements A, B{
 
 	@Override
 	public void get() {
-		System.out.println("Print B");
+		System.out.println("Get B");
 	}
 
 	@Override
 	public void print() {
-		System.out.println("Get A");
+		System.out.println("Print A");
 		
 	}
 	
@@ -35,6 +35,7 @@ public class InterfaceFirst {
 	
 	public static void main(String[] args) {
 		A a = new X();
+		a.print();
 		B b = (B)a;
 		b.get();
 	}

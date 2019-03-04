@@ -1,4 +1,5 @@
 package cn.tju.scs.c01.abstraction;
+
 abstract class BikeAbstract{
 	abstract void run();
 }

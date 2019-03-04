@@ -8,6 +8,7 @@ public class BikeFinalVar {
 
 	public static void main(String[] args) {
 		BikeFinalVar bike = new BikeFinalVar();
+		System.out.println(bike.speedlimit);
 		
 
 	}

@@ -3,8 +3,7 @@ package cn.tju.scs.c01.exception;
 class MyMath{
 	public static int div(int x, int y) throws ArithmeticException{
 		int result = 0;
-		System.out.println("Divide start...");
-		
+		System.out.println("Divide start...");		
 		try{
 			result = x / y;
 		} catch(Exception e){
@@ -12,16 +11,13 @@ class MyMath{
 		} finally{
 			System.out.println("Divide end");
 			return result;
-		}
-		
-		
-		
+		}	
 	}
 }
 
 public class ExceptUseDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		System.out.println(MyMath.div(10, 0));
 		System.out.println("test");
 

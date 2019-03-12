@@ -7,6 +7,7 @@ public class DeprecatedTest {
 	public void doSomething(){
 		System.out.println("Do Something");
 	}
+	
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		DeprecatedTest test = new DeprecatedTest();

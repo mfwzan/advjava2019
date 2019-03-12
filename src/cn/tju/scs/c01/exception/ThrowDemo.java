@@ -1,15 +1,6 @@
 package cn.tju.scs.c01.exception;
 
 public class ThrowDemo {
-//	public static void main(String[] args) {
-//		try {
-//			throw new Exception("自定义异常！");
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		System.out.println("test");
-//	}
-	
 	public static void main(String[] args) {
 		try {
 			throw new Exception("自定义异常！");
@@ -17,6 +8,16 @@ public class ThrowDemo {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("fadfa");
+		System.out.println("test");
 	}
+	
+//	public static void main(String[] args) {
+//		try {
+//			throw new Exception("自定义异常！");
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		System.out.println("fadfa");
+//	}
 }

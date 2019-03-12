@@ -7,6 +7,7 @@ public class OverrideTest {
 		return "Class";
 	}
 	
+	
 
 	public static void main(String[] args) {
 		OverrideTest test = new OverrideTest();

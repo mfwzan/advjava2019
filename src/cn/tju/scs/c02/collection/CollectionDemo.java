@@ -2,6 +2,7 @@ package cn.tju.scs.c02.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 //class Name implements Comparable{
@@ -116,7 +117,7 @@ public class CollectionDemo {
 	
 	public static void main(String[] args) {
 //		Collection c = new ArrayList();
-//		c.add(new Name("Wang", "Tian"));
+//		c.add(new Name("Wang", "Ge"));
 //		c.add(new Integer(400));
 //		c.add("Test");
 //		
@@ -125,16 +126,19 @@ public class CollectionDemo {
 //		System.out.println("------------------------");
 //		c.remove(new Integer(400));
 //		c.remove("Test"); 
-//		c.remove(new Name("Wang","Tian"));
+//		c.remove(new Name("Wang","Ge"));
 //		System.out.println(c.size());
 //		System.out.println(c);
 //		
-		Collection cc = new LinkedList();
+		Collection cc = new HashSet();
 		cc.add(new Name("f1","L1"));
 		cc.add(new Name("f2","L2"));
-		System.out.println(cc.contains(new Name("f2","L2")));
-		cc.remove(new Name("f1","L1"));
+		cc.add(new Name("f0","L0"));
+		
 		System.out.println(cc);
+//		System.out.println(cc.contains(new Name("f2","L2")));
+//		cc.remove(new Name("f1","L1"));
+//		System.out.println(cc);
 
 	}
 

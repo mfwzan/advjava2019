@@ -12,14 +12,17 @@ public class HashSetDemo {
 		s1.add("a");s1.add("b");s1.add("c");
 		s2.add("d");s2.add("a");s2.add("b");
 		
-		Set sn = new HashSet(s1);
-		sn.retainAll(s2);
+		System.out.println(s1);
+		System.out.println(s2);
 		
-		Set su = new HashSet(s1);
-		su.addAll(s2);
-		
-		System.out.println(sn);
-		System.out.println(su);
+//		Set sn = new HashSet(s1);
+//		sn.retainAll(s2);
+//		
+//		Set su = new HashSet(s1);
+//		su.addAll(s2);
+//		
+//		System.out.println(sn);
+//		System.out.println(su);
 
 	}
 

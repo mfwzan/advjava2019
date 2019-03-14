@@ -1,35 +1,31 @@
 package cn.tju.scs.c02.generic;
 
-class Message2<T>{
-	private T msg;
-	public void setMsg(T msg) {
-		this.msg = msg;
-	}
+public class WildCard<T> {
+	private T foo;
 	
-	public T getMsg() {
-		return msg;
+	public T getFoo() {
+		return foo;
 	}
-}
 
-public class WildCard {
-
-//	public static void main(String[] args) {
-//		Message<String> m = new Message<>();
-//		m.setMsg("Hello World!");
-//		fun(m);
-//	}
-//	
-//	public static void fun(Message<String> temp) {
-//		System.out.println(temp.getMsg());
-//	}
-	
-//	public static void fun(Message<Integer> temp) {
-//		System.out.println(temp.getMsg());
-//	}
+	public void setFoo(T foo) {
+		this.foo = foo;
+	}
 	
 	public static void main(String[] args) {
-		Message<Integer> m1 = new Message<Integer>();
-	}
+		WildCard<?> ge = new WildCard<String>();
+//		ge.setFoo();
+		
+		
+		WildCard<String> ge2 = new WildCard<String>();
+		ge2.setFoo("Hello world");
+		
+		ge = ge2;
+		
+		System.out.println(ge.getFoo());
 	
+		
+		
+	}
+
 
 }

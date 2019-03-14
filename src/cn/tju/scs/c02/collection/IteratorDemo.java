@@ -20,6 +20,7 @@ public class IteratorDemo {
 			System.out.println(n.getFirstName());
 		}
 		System.out.println("---------------------");
+		
 		for (Iterator iterator = c.iterator(); iterator.hasNext();) {
 			Name name = (Name) iterator.next();
 			if (name.getFirstName().length() < 3){
